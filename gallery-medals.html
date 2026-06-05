@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Medals & Military — Gloucester Framing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,300;9..144,0,400;9..144,1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--red:#c1272d;--ink:#1a1416;--paper:#f6f1ec;--paper-warm:#efe6dc;--cream:#fbf8f4;--gold:#b8935a}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Outfit",sans-serif;background:var(--paper);color:var(--ink)}
+a{color:inherit;text-decoration:none}
+.topbar{background:var(--ink);color:var(--paper);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;padding:.55rem 2rem;text-align:center}
+.nav-wrap{max-width:1200px;margin:0 auto}
+nav{background:var(--paper);border-bottom:1px solid rgba(26,20,22,.08);padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:"Fraunces",serif;font-size:1.4rem;font-weight:400}
+.logo small{display:block;font-family:"Outfit",sans-serif;font-size:.58rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}
+.back{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red);font-weight:600;border:1px solid var(--red);padding:.5rem 1rem;border-radius:2px;transition:.2s}
+.back:hover{background:var(--red);color:#fff}
+.hero{background:var(--ink);color:#f6f1ec;padding:3.5rem 2rem;text-align:center}
+.hero .kicker{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem;display:block}
+.hero h1{font-family:"Fraunces",serif;font-weight:300;font-size:clamp(1.8rem,4vw,3rem);margin-bottom:.8rem}
+.hero p{color:rgba(246,241,236,.7);max-width:50ch;margin:0 auto;line-height:1.7}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;padding:3rem 2rem;max-width:1200px;margin:0 auto}
+.item{background:var(--cream);border-radius:3px;overflow:hidden;border:1px solid rgba(26,20,22,.07);box-shadow:0 4px 16px rgba(26,20,22,.08);transition:transform .3s,box-shadow .3s}
+.item:hover{transform:translateY(-4px);box-shadow:0 16px 32px rgba(26,20,22,.15)}
+.item img{width:100%;height:280px;object-fit:contain;display:block;background:var(--paper-warm)}
+.item .cap{padding:.8rem 1rem;font-size:.85rem;color:#2c2326;font-style:italic}
+.cta{background:var(--ink);color:#f6f1ec;text-align:center;padding:3rem 2rem}
+.cta h2{font-family:"Fraunces",serif;font-weight:300;font-size:1.8rem;margin-bottom:.6rem}
+.cta p{color:rgba(246,241,236,.65);margin-bottom:1.5rem}
+.btn{display:inline-block;background:var(--red);color:#fff;padding:.8rem 1.8rem;border-radius:2px;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600}
+footer{background:var(--ink);color:rgba(246,241,236,.4);text-align:center;padding:1.5rem;font-size:.78rem;border-top:1px solid rgba(255,255,255,.06)}
+@media(max-width:768px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="topbar">9 Commercial Road · Gloucester GL1 2DY · 01452 524 272</div>
+<div class="nav-wrap">
+  <nav>
+    <div class="logo">Gloucester Framing<small>Commercial Road · Gloucester</small></div>
+    <a href="index.html" class="back">← Back to main site</a>
+  </nav>
+</div>
+<div class="hero">
+  <span class="kicker">Our work</span>
+  <h1>Medals & Military</h1>
+  <p>Military service, campaign medals, police insignia — we treat every piece with the reverence it deserves.</p>
+</div>
+<div class="grid">
+<div class="item"><img src="images/memorabilia_police.jpg" alt="Police service medals & epaulettes"><div class="cap">Police service medals & epaulettes</div></div>
+<div class="item"><img src="images/jacket_dinner.jpg" alt="Military dress jacket with medals"><div class="cap">Military dress jacket with medals</div></div>
+<div class="item"><img src="images/jacket_red.jpg" alt="Guards tunic"><div class="cap">Guards tunic</div></div>
+<div class="item"><img src="images/jacket_black.jpg" alt="Framed service jacket"><div class="cap">Framed service jacket</div></div>
+<div class="item"><img src="images/flag.jpg" alt="US military flag & medals"><div class="cap">US military flag & medals</div></div>
+<div class="item"><img src="images/flag_2.jpg" alt="Military flag presentation"><div class="cap">Military flag presentation</div></div>
+</div>
+<div class="cta">
+  <h2>Ready to frame something?</h2>
+  <p>Bring your piece into our Commercial Road workshop — no appointment needed.</p>
+  <a href="index.html#contact" class="btn">Get in touch</a>
+</div>
+<footer>© Gloucester Framing · 9 Commercial Road · Gloucester GL1 2DY</footer>
+</body>
+</html>
