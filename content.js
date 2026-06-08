@@ -19,7 +19,7 @@ window.CONTENT = {
   business: {
     address1: "9 Commercial Road",
     address2: "Gloucester · GL1 2DY",
-    phone: "01452 524 272",
+    phone: "01452 524272",
     phoneLink: "01452524272",          // digits only, no spaces
     email: "info@gloucesterframing.com",
     // Get-directions button. Paste a Google Maps link here if you
