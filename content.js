@@ -64,7 +64,7 @@ window.CONTENT = {
     lead: "Hand-made, conservation-standard frames for fine art, photographs, medals, sports shirts and almost anything you can imagine — crafted in our Gloucester workshop.",
     buttonText: "View our work",       // links to the gallery
     frameCaption: "Your work, beautifully presented.",
-    frameImage:   "images/cert.jpg",   // ← change this to any image in your images/ folder
+    frameImage: "images/cert.jpg",
     tag: "Hand-made"
   },
 
@@ -143,22 +143,12 @@ window.CONTENT = {
       { src: "images/jacket dinner.jpg",  caption: "all types of shirt framed" },
       { src: "images/fan.jpg",    caption: "object framing, we frame everything" },
 
-      { src: "images/shirt_moto.jpg",     caption: "Framed GBR cycling shirts" },
-      { src: "images/football_2.jpg",     caption: "Framed signed shirt" },
-      { src: "images/football_3.jpg",     caption: "Framed signed shirt" },
-      { src: "images/football_4.jpg",     caption: "Framed signed shirt" },
-      { src: "images/football_5.jpg",     caption: "Framed signed shirt" },
-      { src: "images/object_snooker.jpg", caption: "Signed snooker memorabilia" },
-      { src: "images/flag_2.jpg",         caption: "Military flag framing" },
-      { src: "images/jacket_dinner.jpg",  caption: "Military dress jacket" },
-      { src: "images/jacket_black.jpg",   caption: "Framed jacket" },
-      { src: "images/Rugby_1.jpg",        caption: "Framed rugby shirt" },
-      // YOUR REAL PHOTOS go here:
-      { src: "images/flag.jpg", caption: "Flag framing" },
-      { src: "images/football.jpg", caption: "Framed signed shirt" },
-{ src: "images/jacket_red.jpg", caption: "Military jacket" },
-{ src: "images/object_trowel.jpg", caption: "Object framing" },
-{ src: "images/cert.jpg", caption: "Certificates & warrants" },
+      // YOUR REAL PHOTOS go here, one line each, like the examples above:
+      // { src: "images/flag.jpg",   caption: "Flag Multiapp" },
+      // { src: "images/football.jpg", caption: "Framed signed shirt" },
+// { src: "images/jacket red.jpg", caption: "Military Jacket" },
+// { src: "images/trowel.jpg", caption: "Object framing" },
+// { src: "images/cert.jpg", caption: "Cert, warrants, crests" },
     ]
   },
 

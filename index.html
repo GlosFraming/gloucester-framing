@@ -156,18 +156,13 @@ header.scrolled{box-shadow:0 8px 30px rgba(26,20,22,.08)}
 }
 .hero-frame .art{
   position:absolute;inset:26px;
-  overflow:hidden;
-  display:flex;align-items:flex-end;padding:0;
+  background:
+    linear-gradient(160deg,#7d1416,#d94040 50%,#1a1416);
+  display:flex;align-items:flex-end;padding:1.4rem;
 }
-.hero-frame .art img{
-  width:100%;height:100%;object-fit:cover;display:block;
-}
-.hero-frame .art .caption{
-  position:absolute;bottom:0;left:0;right:0;
-  background:linear-gradient(to top,rgba(26,20,22,.85),transparent);
-  padding:1.4rem 1.2rem .9rem;
-  font-family:var(--display);font-style:italic;color:rgba(255,255,255,.9);
-  font-size:1rem;
+.hero-frame .art span{
+  font-family:var(--display);font-style:italic;color:rgba(255,255,255,.85);
+  font-size:1.1rem;
 }
 .hero-frame .tag{
   position:absolute;top:-18px;right:-18px;z-index:3;
@@ -231,7 +226,7 @@ section{padding:6rem 2rem}
 
 /* ---------- Services ---------- */
 .services{background:var(--paper-warm)}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;max-width:100%;}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.8rem}
 .card{
   background:var(--cream);border-radius:3px;overflow:hidden;
   border:1px solid rgba(26,20,22,.07);
@@ -585,6 +580,7 @@ window.CONTENT = {
     lead: "Hand-made, conservation-standard frames for fine art, photographs, medals, sports shirts and almost anything you can imagine — crafted in our Gloucester workshop.",
     buttonText: "View our work",       // links to the gallery
     frameCaption: "Your work, beautifully presented.",
+    frameImage: "images/cert.jpg",
     tag: "Hand-made"
   },
 
@@ -663,22 +659,12 @@ window.CONTENT = {
       { src: "images/jacket dinner.jpg",  caption: "all types of shirt framed" },
       { src: "images/fan.jpg",    caption: "object framing, we frame everything" },
 
-      { src: "images/shirt_moto.jpg",     caption: "Framed GBR cycling shirts" },
-      { src: "images/football_2.jpg",     caption: "Framed signed shirt" },
-      { src: "images/football_3.jpg",     caption: "Framed signed shirt" },
-      { src: "images/football_4.jpg",     caption: "Framed signed shirt" },
-      { src: "images/football_5.jpg",     caption: "Framed signed shirt" },
-      { src: "images/object_snooker.jpg", caption: "Signed snooker memorabilia" },
-      { src: "images/flag_2.jpg",         caption: "Military flag framing" },
-      { src: "images/jacket_dinner.jpg",  caption: "Military dress jacket" },
-      { src: "images/jacket_black.jpg",   caption: "Framed jacket" },
-      { src: "images/Rugby_1.jpg",        caption: "Framed rugby shirt" },
-      // YOUR REAL PHOTOS go here:
-      { src: "images/flag.jpg", caption: "Flag framing" },
-      { src: "images/football.jpg", caption: "Framed signed shirt" },
-{ src: "images/jacket_red.jpg", caption: "Military jacket" },
-{ src: "images/object_trowel.jpg", caption: "Object framing" },
-{ src: "images/cert.jpg", caption: "Certificates & warrants" },
+      // YOUR REAL PHOTOS go here, one line each, like the examples above:
+      // { src: "images/flag.jpg",   caption: "Flag Multiapp" },
+      // { src: "images/football.jpg", caption: "Framed signed shirt" },
+// { src: "images/jacket red.jpg", caption: "Military Jacket" },
+// { src: "images/trowel.jpg", caption: "Object framing" },
+// { src: "images/cert.jpg", caption: "Cert, warrants, crests" },
     ]
   },
 
@@ -765,7 +751,7 @@ window.CONTENT = {
   el("sv-cards").innerHTML=C.services.cards.map(function(c,i){
     return '<a href="'+cardPages[i]+'" class="card reveal" style="text-decoration:none;color:inherit;display:block;cursor:pointer"><span class="corner"></span>'+
       '<div class="card-top" style="padding:0;height:200px;position:relative;overflow:hidden">'+
-      '<img src="'+cardImgs[i]+'" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(8px) brightness(0.75) saturate(1.1);transform:scale(1.15);">'+
+      '<img src="'+cardImgs[i]+'" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(8px) brightness(0.75) saturate(1.1);">'+
       '<img src="'+cardImgs[i]+'" alt="'+c.title+'" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;">'+
       '<div style="position:absolute;bottom:.8rem;left:.8rem">'+
       '<span style="background:var(--red);color:#fff;font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:.3rem .65rem;border-radius:1px">View examples →</span>'+
