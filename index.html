@@ -230,7 +230,7 @@ section{padding:6rem 2rem}
 }
 
 /* ---------- Services ---------- */
-.services{background:var(--paper-warm);overflow:hidden;padding:4rem 2rem}
+.services{background:var(--paper-warm)}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;max-width:100%;}
 .card{
   background:var(--cream);border-radius:3px;overflow:hidden;
@@ -763,8 +763,8 @@ window.CONTENT = {
   var cardImgs=["images/cert.jpg","images/Rugby_1.jpg","images/football_2.jpg","images/memorabilia_police.jpg","images/flag.jpg","images/fan.jpg"];
   var cardPages=["gallery-artwork.html","gallery-sports.html","gallery-prints.html","gallery-medals.html","gallery-certificates.html","gallery-3d.html"];
   el("sv-cards").innerHTML=C.services.cards.map(function(c,i){
-    return '<a href="'+cardPages[i]+'" class="card reveal" style="text-decoration:none;color:inherit;display:block;cursor:pointer;overflow:hidden"><span class="corner"></span>'+
-      '<div class="card-top" style="padding:0;height:200px;position:relative;overflow:hidden;contain:strict">'+
+    return '<a href="'+cardPages[i]+'" class="card reveal" style="text-decoration:none;color:inherit;display:block;cursor:pointer"><span class="corner"></span>'+
+      '<div class="card-top" style="padding:0;height:200px;position:relative;overflow:hidden">'+
       '<img src="'+cardImgs[i]+'" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(8px) brightness(0.75) saturate(1.1);transform:scale(1.15);">'+
       '<img src="'+cardImgs[i]+'" alt="'+c.title+'" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;">'+
       '<div style="position:absolute;bottom:.8rem;left:.8rem">'+
