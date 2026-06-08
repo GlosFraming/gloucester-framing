@@ -19,7 +19,7 @@ window.CONTENT = {
   business: {
     address1: "9 Commercial Road",
     address2: "Gloucester · GL1 2DY",
-    phone: "01452 524272",
+    phone: "01452 524 272",
     phoneLink: "01452524272",          // digits only, no spaces
     email: "info@gloucesterframing.com",
     // Get-directions button. Paste a Google Maps link here if you
@@ -44,7 +44,7 @@ window.CONTENT = {
     { day: "Wednesday", hours: "9:30am – 6:00pm" },
     { day: "Thursday",  hours: "9:30am – 6:00pm" },
     { day: "Friday",    hours: "9:30am – 6:00pm" },
-    { day: "Saturday",  hours: "11.00am – 4:00pm" },
+    { day: "Saturday",  hours: "10.00am – 4:00pm" },
     { day: "Sunday",    hours: "Closed" }
   ],
 
@@ -64,6 +64,7 @@ window.CONTENT = {
     lead: "Hand-made, conservation-standard frames for fine art, photographs, medals, sports shirts and almost anything you can imagine — crafted in our Gloucester workshop.",
     buttonText: "View our work",       // links to the gallery
     frameCaption: "Your work, beautifully presented.",
+    frameImage:   "images/cert.jpg",   // ← change this to any image in your images/ folder
     tag: "Hand-made"
   },
 
