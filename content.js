@@ -44,7 +44,7 @@ window.CONTENT = {
     { day: "Wednesday", hours: "9:30am – 6:00pm" },
     { day: "Thursday",  hours: "9:30am – 6:00pm" },
     { day: "Friday",    hours: "9:30am – 6:00pm" },
-    { day: "Saturday",  hours: "10.00am – 4:00pm" },
+    { day: "Saturday",  hours: "11.00am – 4:00pm" },
     { day: "Sunday",    hours: "Closed" }
   ],
 
